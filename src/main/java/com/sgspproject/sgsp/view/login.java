@@ -8,12 +8,12 @@ package com.sgspproject.sgsp.view;
  *
  * @author jonat
  */
-public class login extends javax.swing.JPanel {
+public class Login extends javax.swing.JPanel {
 
     /**
      * Creates new form login
      */
-    public login() {
+    public Login() {
         initComponents();
     }
 
@@ -27,6 +27,8 @@ public class login extends javax.swing.JPanel {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
+
+        jPanel1.setBackground(new java.awt.Color(204, 255, 204));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
