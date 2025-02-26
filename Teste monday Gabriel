@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novo Lançamento Especial</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+        }
+        .header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        .logo {
+            max-width: 200px;
+            height: auto;
+        }
+        .hero-image {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            margin: 20px 0;
+        }
+        .content {
+            padding: 20px;
+            background-color: #f8f8f8;
+            border-radius: 5px;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #FF4500;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 25px;
+            margin: 20px 0;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+            color: #666666;
+        }
+        @media only screen and (max-width: 600px) {
+            .container {
+                width: 100% !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://via.placeholder.com/200x80" alt="Logo da Empresa" class="logo">
+        </div>
+        
+        <div class="content">
+            <h1 style="color: #333333; text-align: center;">Chegou o Novo SmartWatch Pro X</h1>
+            
+            <img src="https://via.placeholder.com/600x300" alt="SmartWatch Pro X" class="hero-image">
+            
+            <h2 style="color: #FF4500; text-align: center;">Revolucione sua rotina com tecnologia de ponta!</h2>
+            
+            <p style="color: #333333; line-height: 1.6;">
+                Olá¡, [Nome do Cliente]!
+            </p>
+            
+            <p style="color: #333333; line-height: 1.6;">
+                Estamos empolgados em apresentar o mais novo membro da nossa fam­lia de produtos: o SmartWatch Pro X. 
+                Com design elegante e recursos inovadores, ele vai transformar sua experincia com tecnologia vestÃ­vel.
+            </p>
+            
+            <ul style="color: #333333; line-height: 1.6;">
+                <li> Bateria com duração de até 7 dias</li>
+                <li> Monitoramento avançado de atividades fí­sicas</li>
+                <li> Sensor cardí­aco de última geração</li>
+                <li> Media de temperatura corporal</li>
+            </ul>
+            
+            <p style="text-align: center;">
+                <strong style="color: #FF4500; font-size: 24px;">Oferta de Lançamento!</strong><br>
+                <span style="color: #333333;">De R$ 1.299,00 por apenas</span><br>
+                <strong style="color: #FF4500; font-size: 32px;">R$ 999,00</strong>
+            </p>
+            
+            <div style="text-align: center;">
+                <a href="#" class="button">COMPRAR AGORA</a>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>
+                 2025 Sua Empresa. Todos os direitos reservados.<br>
+                Voce esta recebendo este e-mail porque se cadastrou em nossa lista.<br>
+                Para cancelar a inscrição, <a href="#" style="color: #FF4500;">clique aqui</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
